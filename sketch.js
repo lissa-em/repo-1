@@ -5,7 +5,7 @@ function setup() {
 function draw() {
 
   //Smile
-  background(200,255,200);
+  background(200,255,200); //make this red
   //Border
   stroke('green');
   strokeWeight(3);
@@ -19,7 +19,7 @@ function draw() {
   //Mouth
   stroke('green');
   fill('green');
-  square(90,200,40);
+  square(90,200,40);    //make him frown
   rect(130,240,140,40);
   square(270,200,40);
   //Text 
@@ -34,3 +34,4 @@ function draw() {
 
 
 }
+
